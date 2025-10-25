@@ -1,0 +1,18 @@
+# 项目目录结构与开发技术
+
+## 目录结构
+- `src/` - 核心源代码，包含 `core`、`modules`、`ui` 等子目录
+- `resources/` - 程序使用的资源文件，如图标、脚本和搜索引擎配置等
+- `3rdparty/` - 随项目分发的第三方库
+- `packaging/` - 打包和部署脚本
+- `cmake/` - CMake 相关脚本和配置
+- `man/` - 手册页文件
+- 根目录下还有若干构建脚本和文档，如 `CMakeLists.txt`、`INSTALL.md` 等
+
+## 开发技术
+- **主要语言**：C++，基于 Qt 5 框架
+- **构建系统**：CMake
+- **依赖库**：Qt 5、OpenSSL、GStreamer 等
+- **脚本与工具**：部分功能使用 JavaScript，开发辅助脚本使用 Python 3
+
+该项目旨在复刻 Opera 12 浏览器的体验，提供轻量级且可定制的浏览器。
